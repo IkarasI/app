@@ -51,6 +51,7 @@ public class subActivity extends AppCompatActivity {
 
                 String message = editText.getText().toString();
 
+                // 入力が空もしくは0だった場合1000に設定する
                 if(TextUtils.isEmpty(message)){
                     message="1000";
                 }

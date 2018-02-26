@@ -440,7 +440,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
-
+        // 下はメニューボタンの動作設定
         if (id == R.id.nav_gallery) {
 
             Intent intent = new Intent(getApplication(), subActivity.class); //subへ
@@ -448,7 +448,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         } else if (id == R.id.nav_manage) {
 
-            Intent intent = new Intent(getApplication(), ManageActivity.class); //Manage
+            Intent intent = new Intent(getApplication(), ManageActivity.class); //Manageへ
             startActivity(intent);
 
         } else if (id == R.id.nav_reset) {

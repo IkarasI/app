@@ -102,7 +102,7 @@ public class ManageActivity extends AppCompatActivity implements NavigationView.
 
 
 
-        // SeekBar
+        // 温度計デバッグ用
         final SeekBar seekBar = findViewById(R.id.seekBar);
         final TextView tnpview = (TextView)findViewById(R.id.tnpView);
         tnpview.setText(seekBar.getProgress()+"℃");
@@ -113,7 +113,7 @@ public class ManageActivity extends AppCompatActivity implements NavigationView.
                     public void onProgressChanged(
                             SeekBar seekBar, int progress, boolean fromUser) {
                         ProgressBar tnpBar = (ProgressBar)findViewById(R.id.tnpBar);
-                        tnpBar.setProgress(progress); // 水平プログレスバーのセカンダリ値を設定
+                        tnpBar.setProgress(progress);
                         tnpview.setText(seekBar.getProgress()+"℃");
                     }
 
