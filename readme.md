@@ -14,7 +14,7 @@ androidsutudioを起動し、fileからopenを選び、移動したフォルダ�
 
 * デバッグのためにNOXとandroidstudioを接続する方法　https://www.bignox.com/blog/how-to-connect-android-studio-with-nox-app-player-for-android-development-and-debug/
 
-### 制作環境
+### 開発環境
 
   androidsutudio3.0
   
