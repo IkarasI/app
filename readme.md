@@ -18,7 +18,7 @@ androidsutudioを起動し、fileからopenを選び、移動したフォルダ�
 
   androidsutudio3.0
   
-  
+  デバッグ用タブレットandroidVer4.4
 
 ### アプリの動作説明
 ![ ](1.jpg)
