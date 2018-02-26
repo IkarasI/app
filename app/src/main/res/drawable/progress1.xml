@@ -1,0 +1,24 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!-- 背景 -->
+<item android:id="@android:id/background">
+    <color android:color="#ff0000" />
+</item>
+
+<!-- android:secondaryProgress用のDrawable -->
+<item android:id="@android:id/secondaryProgress">
+    <clip>
+        <color android:color="#64940000" />
+    </clip>
+</item>
+
+<!-- android:progress用のDrawable -->
+<item android:id="@android:id/progress">
+    <shape
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle">
+        <gradient android:angle="180" android:startColor="#000000" />
+    </shape>
+</item>
+
+</layer-list>
